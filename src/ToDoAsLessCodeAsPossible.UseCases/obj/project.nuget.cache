@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TfeTKmrHzSLlI/CJ8n0Lg/5uuL9nSdA3FJJTYK4su5EHqTqjMVNwMK9No8mxvU5i1bjJoi0jYHrio9l9qPyNMg==",
+  "success": true,
+  "projectFilePath": "/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.UseCases/ToDoAsLessCodeAsPossible.UseCases.csproj",
+  "expectedPackageFiles": [
+    "/Users/kamilbytner/.nuget/packages/dawn.guard/1.12.0/dawn.guard.1.12.0.nupkg.sha512",
+    "/Users/kamilbytner/.nuget/packages/ensure.that/10.1.0/ensure.that.10.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.deps.json
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.dll
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ref/ToDoAsLessCodeAsPossible.Domain.dll
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.pdb
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.csproj.AssemblyReference.cache
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.AssemblyInfoInputs.cache
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.AssemblyInfo.cs
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.csproj.CoreCompileInputs.cache
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.csproj.CopyComplete
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.dll
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ref/ToDoAsLessCodeAsPossible.Domain.dll
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/obj/Debug/net6.0/ToDoAsLessCodeAsPossible.Domain.pdb
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ToDoAsLessCodeAsPossible.BuildingBlocks.Abstractions.dll
+/Users/kamilbytner/Repozytoria/ToDoAsLessCodeAsPossible/ToDoAsLessCodeAsPossible/src/ToDoAsLessCodeAsPossible.Domain/bin/Debug/net6.0/ToDoAsLessCodeAsPossible.BuildingBlocks.Abstractions.pdb
