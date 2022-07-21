@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/BusinessRuleValidationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/DomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/EntityId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/IBusinessRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/IDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/SystemClock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/WithCheckRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoCreatedDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoMarkedAsCompletedDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoMarkedAsUncompletedDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoTitleChangedDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantCompleteAlreadyCompletedToDo/CantCompleteAlreadyCompletedToDoException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantCompleteAlreadyCompletedToDo/CantCompleteAlreadyCompletedToDoRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantMarkAsUncompletedAlreadyUncompleted/CantMarkAsUncompletedAlreadyUncompletedException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantMarkAsUncompletedAlreadyUncompleted/CantMarkAsUncompletedAlreadyUncompletedRule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/ToDo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/UseCasePatternWithRichDomain.Domain.csproj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CGxwHvsdFoNDNREKt0OVAe9xlL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="" />
+      <created>1658442962114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658442962114</updated>
+      <workItem from="1658442967069" duration="1350000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
