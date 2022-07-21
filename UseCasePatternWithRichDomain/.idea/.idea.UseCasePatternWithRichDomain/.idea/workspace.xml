@@ -4,30 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/BusinessRuleValidationException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/DomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/EntityId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/IBusinessRule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/IDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/SystemClock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/BuildingBlocks/WithCheckRule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoCreatedDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoMarkedAsCompletedDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoMarkedAsUncompletedDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Events/ToDoTitleChangedDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantCompleteAlreadyCompletedToDo/CantCompleteAlreadyCompletedToDoException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantCompleteAlreadyCompletedToDo/CantCompleteAlreadyCompletedToDoRule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantMarkAsUncompletedAlreadyUncompleted/CantMarkAsUncompletedAlreadyUncompletedException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/Rules/CantMarkAsUncompletedAlreadyUncompleted/CantMarkAsUncompletedAlreadyUncompletedRule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/ToDos/ToDo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/UseCasePatternWithRichDomain.Domain.csproj" afterDir="false" />
+    <list default="true" id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="Aggregate root with domain events">
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/DomainEventsTestHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/TestBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoChangeTitleTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoCompleteTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoMarkAsUncompletedTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UseCasePatternWithRichDomain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UseCasePatternWithRichDomain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,8 +51,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658442962114</updated>
-      <workItem from="1658442967069" duration="1350000" />
+      <workItem from="1658442967069" duration="2522000" />
     </task>
+    <task id="LOCAL-00001" summary="Aggregate root with domain events">
+      <created>1658444493669</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658444493669</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Aggregate root with domain events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggregate root with domain events" />
   </component>
 </project>
