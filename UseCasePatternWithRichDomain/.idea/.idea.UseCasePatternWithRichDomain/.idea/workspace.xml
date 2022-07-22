@@ -4,13 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="Aggregate root with domain events">
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/DomainEventsTestHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/TestBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoChangeTitleTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoCompleteTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/ToDos/ToDoMarkAsUncompletedTests.cs" afterDir="false" />
+    <list default="true" id="e6ef6aac-10b3-43a6-bd6f-127955723d95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/EndpointsConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/UseCases/CreateToDo/CreateToDoPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/UseCases/CreateToDo/CreateToDoRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/UseCases/CreateToDo/Endpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/InternalsVisibility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Persistence/DatabaseCreator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Persistence/Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Persistence/Repositories/ToDoWriteRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Persistence/TableConfiguration/ToDoConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Persistence/ToDoWriteDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/PublicExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/UseCases/IUseCaseExecutor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Boundaries/CreateToDo/CreateToDoInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Boundaries/CreateToDo/CreateToDoOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Boundaries/CreateToDo/IOutputPort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Boundaries/CreateToDo/IUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/OutputPort/IOutputPortBusinessError.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/OutputPort/IOutputPortInvalidInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/OutputPort/IOutputPortStandard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/UseCases/IUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/UseCases/IUseCaseInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/UseCases/IUseCaseOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/ValidationErrors/InvalidUseCaseInputValidationError.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/BuildingBlocks/ValidationErrors/MapFluentValidatiorsExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Services/IToDoWriteRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/UseCaseMarker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/UseCases/CreateToDo/CreateToDoUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/UseCases/CreateToDo/CreateToDoValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UseCasePatternWithRichDomain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UseCasePatternWithRichDomain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/UseCasePatternWithRichDomain.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/UseCasePatternWithRichDomain.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/UseCasePatternWithRichDomain.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/UseCasePatternWithRichDomain.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/UseCasePatternWithRichDomain.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/UseCasePatternWithRichDomain.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/UseCasePatternWithRichDomain.Api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/Debug/net6.0/UseCasePatternWithRichDomain.Domain.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/Debug/net6.0/UseCasePatternWithRichDomain.Domain.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/obj/Debug/net6.0/UseCasePatternWithRichDomain.Domain.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/UseCasePatternWithRichDomain.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/UseCasePatternWithRichDomain.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/Debug/net6.0/UseCasePatternWithRichDomain.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/Debug/net6.0/UseCasePatternWithRichDomain.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/UseCasePatternWithRichDomain.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/UseCasePatternWithRichDomain.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/UseCasePatternWithRichDomain.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/UseCasePatternWithRichDomain.Infrastructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/UseCasePatternWithRichDomain.UseCases.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/UseCasePatternWithRichDomain.UseCases.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/Debug/net6.0/UseCasePatternWithRichDomain.UseCases.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/Debug/net6.0/UseCasePatternWithRichDomain.UseCases.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/UseCasePatternWithRichDomain.UseCases.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/UseCasePatternWithRichDomain.UseCases.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.UseCases/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UseCasePatternWithRichDomain.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UseCasePatternWithRichDomain.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +76,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UseCasePatternWithRichDomain.Domain.Tests/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -51,7 +107,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658442962114</updated>
-      <workItem from="1658442967069" duration="2522000" />
+      <workItem from="1658442967069" duration="5613000" />
+      <workItem from="1658448632529" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="Aggregate root with domain events">
       <created>1658444493669</created>
@@ -60,14 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658444493669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add test for domain">
+      <created>1658445517380</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658445517380</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update git ignore">
+      <created>1658445603288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658445603288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -83,6 +154,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Aggregate root with domain events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggregate root with domain events" />
+    <MESSAGE value="Add test for domain" />
+    <MESSAGE value="update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
   </component>
 </project>

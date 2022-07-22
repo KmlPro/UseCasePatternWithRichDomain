@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nQuGdNLL1zO2un93TOp8l6cgpjtoExhjibL/U1l7pt5YV7LXoCjS0Vb+JfGXMGrmRb1lndLvs14y+97NX6p6cA==",
+  "dgSpecHash": "Uj3cSjMyjQYoc3fAiQiJJ6RVYIxGiZAcx02OAEdsJZHKVcLS34BFEymA/+yo58HLu4efdlayrDUO/h5Hx9HJdw==",
   "success": true,
   "projectFilePath": "/Users/kamilbytner/Repozytoria/UseCasePatternWithRichDomain/UseCasePatternWithRichDomain/UseCasePatternWithRichDomain/UseCasePatternWithRichDomain.UseCases/UseCasePatternWithRichDomain.UseCases.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/kamilbytner/.nuget/packages/ensure.that/10.1.0/ensure.that.10.1.0.nupkg.sha512",
+    "/Users/kamilbytner/.nuget/packages/fluentvalidation/11.1.0/fluentvalidation.11.1.0.nupkg.sha512",
+    "/Users/kamilbytner/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/kamilbytner/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
