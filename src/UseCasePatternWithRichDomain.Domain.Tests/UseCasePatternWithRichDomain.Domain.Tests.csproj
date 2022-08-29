@@ -16,4 +16,8 @@
       <ProjectReference Include="..\UseCasePatternWithRichDomain.Domain\UseCasePatternWithRichDomain.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="ToDos" />
+    </ItemGroup>
+
 </Project>

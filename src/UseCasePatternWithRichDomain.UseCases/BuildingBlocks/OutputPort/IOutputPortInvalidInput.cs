@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UseCasePatternWithRichDomain.UseCases.BuildingBlocks.ValidationErrors;
 
 namespace UseCasePatternWithRichDomain.UseCases.BuildingBlocks.OutputPort

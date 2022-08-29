@@ -1,3 +1,5 @@
+using System;
+
 namespace UseCasePatternWithRichDomain.BuildingBlocks;
 
 public class EntityId

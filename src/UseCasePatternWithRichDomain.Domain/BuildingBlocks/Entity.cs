@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace UseCasePatternWithRichDomain.BuildingBlocks;
 
 public abstract class AggregateRoot : WithCheckRule

@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace UseCasePatternWithRichDomain.Infrastructure.Persistence;

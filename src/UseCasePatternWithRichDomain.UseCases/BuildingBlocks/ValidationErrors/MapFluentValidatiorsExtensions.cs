@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using FluentValidation;
 
 namespace UseCasePatternWithRichDomain.UseCases.BuildingBlocks.ValidationErrors
