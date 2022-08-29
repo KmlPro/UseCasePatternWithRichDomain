@@ -1,8 +1,6 @@
-using System.Threading;
-using System.Threading.Tasks;
 using UseCasePatternWithRichDomain.UseCases.BuildingBlocks.UseCases;
 
-namespace UseCasePatternWithRichDomain.Infrastructure.UseCases;
+namespace UseCasePatternWithRichDomain.Infrastructure.UseCaseProcessing.Executor;
 
 public interface IUseCaseExecutor
 {

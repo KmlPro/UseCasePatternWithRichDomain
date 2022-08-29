@@ -11,5 +11,7 @@ public class ToDoConfiguration : IEntityTypeConfiguration<ToDo>
         builder.HasKey(o => o.Id);
         builder.Property("_title").HasMaxLength(100).IsRequired();
         builder.Property("_isCompleted").IsRequired();
+
+        builder.Ignore(o => o.DomainEvents);
     }
 }

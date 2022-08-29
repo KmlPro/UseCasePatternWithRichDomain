@@ -1,5 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
-using UseCasePatternWithRichDomain.UseCases;
+using UseCasePatternWithRichDomain.Infrastructure.Persistence;
+using UseCasePatternWithRichDomain.Infrastructure.Persistence.InMemory;
+using UseCasePatternWithRichDomain.Infrastructure.UseCaseProcessing;
 
 namespace UseCasePatternWithRichDomain.Infrastructure;
 
@@ -7,8 +9,10 @@ public static class PublicExtensions
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services)
     {
-        var useCasesAssembly = typeof(UseCaseMarker).Assembly;
-        var infrastructureAssembly = typeof(PublicExtensions).Assembly;
+        services.AddInMemoryPersistence<ToDoWriteDbContext>(
+            new InMemoryDatabaseParameters(InMemoryDatabaseProvider.Sqlite));
+
+        services.AddUseCaseProcessing();
         
         return services;
     }

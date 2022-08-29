@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ToDoAsLessCodeAsPossible.BuildingBlocks.Infrastructure.Persistance.InMemory;
+using UseCasePatternWithRichDomain.Infrastructure.Persistence.InMemory;
 using UseCasePatternWithRichDomain.Infrastructure.Persistence.InMemory.DatabaseConfiguration;
 using UseCasePatternWithRichDomain.Infrastructure.Persistence.Repositories;
 using UseCasePatternWithRichDomain.Infrastructure.Persistence.Transactions;

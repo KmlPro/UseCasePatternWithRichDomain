@@ -1,4 +1,4 @@
-namespace ToDoAsLessCodeAsPossible.BuildingBlocks.Infrastructure.Persistance.InMemory;
+namespace UseCasePatternWithRichDomain.Infrastructure.Persistence.InMemory;
 
 /// <summary>
 /// For now it is possible to choose two database providers

@@ -1,6 +1,4 @@
-using System.Threading;
-using Microsoft.AspNetCore.Builder;
-using UseCasePatternWithRichDomain.Infrastructure.UseCases;
+using UseCasePatternWithRichDomain.Infrastructure.UseCaseProcessing.Executor;
 using UseCasePatternWithRichDomain.UseCases.Boundaries.CreateToDo;
 
 namespace UseCasePatternWithRichDomain.Api.UseCases.CreateToDo;

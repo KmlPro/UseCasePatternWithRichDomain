@@ -1,3 +1,3 @@
-namespace ToDoAsLessCodeAsPossible.BuildingBlocks.Infrastructure.Persistance.Databases.Sqlite;
+namespace UseCasePatternWithRichDomain.Infrastructure.Persistence.Databases.Sqlite;
 
 public record SqliteDatabaseParameters(string ConnectionString);

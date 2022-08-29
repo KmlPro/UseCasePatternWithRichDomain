@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UseCasePatternWithRichDomain.Infrastructure.Persistence.StronglyTypedIdConfiguration;
 
-namespace ToDoAsLessCodeAsPossible.BuildingBlocks.Infrastructure.Persistance.Databases.Sqlite;
+namespace UseCasePatternWithRichDomain.Infrastructure.Persistence.Databases.Sqlite;
 
 public class SqliteConfigurationFactory
 {
