@@ -17,7 +17,7 @@ public class CreateToDoPresenter : IOutputPort
         ViewModel = Results.UnprocessableEntity(message);
     }
 
-    public void Standard(CreateToDoOutput output)
+    public void WriteStandard(CreateToDoOutput output)
     {
         ViewModel = Results.Created(new Uri($"/todo/{output.Id}"), null);
     }

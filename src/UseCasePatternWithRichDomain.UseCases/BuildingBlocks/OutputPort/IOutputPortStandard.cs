@@ -7,6 +7,6 @@ namespace UseCasePatternWithRichDomain.UseCases.BuildingBlocks.OutputPort
         ///     Writes to the Standard Output.
         /// </summary>
         /// <param name="output">The Output Port Message.</param>
-        void Standard(TUseCaseOutput output);
+        void WriteStandard(TUseCaseOutput output);
     }
 }

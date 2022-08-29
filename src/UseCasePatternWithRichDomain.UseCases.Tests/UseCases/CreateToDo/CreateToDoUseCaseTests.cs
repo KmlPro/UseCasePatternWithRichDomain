@@ -35,7 +35,7 @@ public class CreateToDoUseCaseTests
         //Assert
         result.InvokedOutputMethod.ShouldBe(OutputPortInvokedMethod.Standard);
         
-        var id = new EntityId(new Guid(result.Id));
+        var id = new EntityId(result.Id);
         var toDo = await _toDoWriteRepository.GetAsync(id, CancellationToken.None);
         toDo.ShouldNotBeNull();
     }

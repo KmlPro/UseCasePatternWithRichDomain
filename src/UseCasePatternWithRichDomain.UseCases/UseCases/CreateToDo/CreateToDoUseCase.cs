@@ -27,6 +27,7 @@ public class CreateToDoUseCase : IUseCase
             await _validator.ValidateAndThrowAsync(input, cancellationToken);
             var toDo = ToDo.Create(input.Title);
             await _toDoWriteRepository.AddAsync(toDo, cancellationToken);
+            _outputPort.WriteStandard(new CreateToDoOutput(toDo.Id.Value));
         }
         catch (BusinessRuleValidationException ex)
         {

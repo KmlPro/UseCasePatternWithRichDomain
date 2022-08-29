@@ -1,8 +1,10 @@
-using Microsoft.AspNetCore.Builder;
+using UseCasePatternWithRichDomain.Api;
+using UseCasePatternWithRichDomain.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+builder.Services.AddInfrastructure();
+builder.Services.AddPresenters();
 
-app.MapGet("/", () => "Hello World!");
+var app = builder.Build();
 
 app.Run();

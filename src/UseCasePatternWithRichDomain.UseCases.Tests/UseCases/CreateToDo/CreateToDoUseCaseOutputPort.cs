@@ -6,9 +6,9 @@ namespace UseCasePatternWithRichDomain.UseCases.Tests.UseCases.CreateToDo;
 public class CreateToDoUseCaseOutputPort: IOutputPort
 {
     public OutputPortInvokedMethod InvokedOutputMethod { get; set; }
-    public string Id { get; set; }
+    public Guid Id { get; set; }
 
-    public void Standard(CreateToDoOutput output)
+    public void WriteStandard(CreateToDoOutput output)
     {
         InvokedOutputMethod = OutputPortInvokedMethod.Standard;
         Id = output.Id;

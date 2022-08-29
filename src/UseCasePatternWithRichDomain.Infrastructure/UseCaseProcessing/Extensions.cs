@@ -9,12 +9,13 @@ internal static class Extensions
 {
     public static IServiceCollection AddUseCaseProcessing(this IServiceCollection services)
     {
-        var assemblyWithUseCases = typeof(UseCaseMarker).Assembly;
+        var useCaseAssembly = typeof(UseCaseMarker).Assembly;
+        var infrastructureAssembly = typeof(InfrastructureMarker).Assembly;
 
         services.AddScoped<IUseCaseExecutor, UseCaseExecutor>();
-        FluentValidationConfiguration.Register(services, assemblyWithUseCases);
-        MediatrConfiguration.Register(services, assemblyWithUseCases);
-        
+        FluentValidationConfiguration.Register(services, useCaseAssembly);
+        MediatrConfiguration.Register(services, useCaseAssembly, infrastructureAssembly);
+
         return services;
     }
 }
