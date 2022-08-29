@@ -10,17 +10,16 @@ namespace UseCasePatternWithRichDomain.UseCases.Tests.UseCases.CreateToDo;
 public class CreateToDoUseCaseTests
 {
     private readonly IUseCaseExecutor _useCaseExecutor;
-    private readonly DependencyContainer _dependencyContainer;
     private readonly IToDoWriteRepository _toDoWriteRepository;
     
     public CreateToDoUseCaseTests()
     {
-        _dependencyContainer = new DependencyContainer();
-        _dependencyContainer.RegisterMockType<IOutputPort>(new CreateToDoUseCaseOutputPort());
-        _dependencyContainer.BuildContainerAndSetupDatabase();
+        var dependencyContainer = new DependencyContainer();
+        dependencyContainer.RegisterMockType<IOutputPort>(new CreateToDoUseCaseOutputPort());
+        dependencyContainer.BuildContainerAndSetupDatabase();
         
-        _useCaseExecutor = _dependencyContainer.GetUseCaseExecutor();
-        _toDoWriteRepository = _dependencyContainer.GetService<IToDoWriteRepository>();
+        _useCaseExecutor = dependencyContainer.GetUseCaseExecutor();
+        _toDoWriteRepository = dependencyContainer.GetService<IToDoWriteRepository>();
     }
     
     [Test]

@@ -19,6 +19,6 @@ public class CreateToDoPresenter : IOutputPort
 
     public void WriteStandard(CreateToDoOutput output)
     {
-        ViewModel = Results.Created(new Uri($"/todo/{output.Id}"), null);
+        ViewModel = Results.Created(new Uri($"/todo/{output.Id}"), output.Id);
     }
 }
