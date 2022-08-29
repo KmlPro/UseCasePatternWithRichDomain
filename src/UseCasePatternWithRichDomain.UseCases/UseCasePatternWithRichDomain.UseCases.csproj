@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Boundaries\GetAllToDo" />
       <Folder Include="BuildingBlocks" />
       <Folder Include="UseCases" />
     </ItemGroup>

@@ -6,7 +6,7 @@ namespace UseCasePatternWithRichDomain.UseCases.BuildingBlocks.OutputPort
     public interface IOutputPortInvalidInput
     {
         /// <summary>
-        ///     Informs the resource was not found.
+        ///     Informs that use case input was incorrect.
         /// </summary>
         void WriteInvalidInput(List<InvalidUseCaseInputValidationError> errors);
     }
