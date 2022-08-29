@@ -39,4 +39,17 @@ public class CreateToDoUseCaseTests
         var toDo = await _toDoWriteRepository.GetAsync(id, CancellationToken.None);
         toDo.ShouldNotBeNull();
     }
+    
+    [Test]
+    public async Task TooShortTitle_ToDoNotCreated()
+    {
+        //Arrange
+        var command = new CreateToDoInput("Fa");
+        
+        //Act
+        var result = (CreateToDoUseCaseOutputPort)await _useCaseExecutor.Execute(command, CancellationToken.None);
+        
+        //Assert
+        result.InvokedOutputMethod.ShouldBe(OutputPortInvokedMethod.WriteInvalidInput);
+    }
 }
