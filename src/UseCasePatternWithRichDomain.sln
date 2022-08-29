@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCasePatternWithRichDomai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCasePatternWithRichDomain.Api", "UseCasePatternWithRichDomain.Api\UseCasePatternWithRichDomain.Api.csproj", "{28D7BEFA-BBA5-468E-A151-81F13D56039D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCasePatternWithRichDomain.UseCases.Tests", "UseCasePatternWithRichDomain.UseCases.Tests\UseCasePatternWithRichDomain.UseCases.Tests.csproj", "{B1B19DF3-20C3-45C3-A406-30641C625A49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,8 +40,13 @@ Global
 		{28D7BEFA-BBA5-468E-A151-81F13D56039D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D7BEFA-BBA5-468E-A151-81F13D56039D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D7BEFA-BBA5-468E-A151-81F13D56039D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B19DF3-20C3-45C3-A406-30641C625A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B19DF3-20C3-45C3-A406-30641C625A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B19DF3-20C3-45C3-A406-30641C625A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B19DF3-20C3-45C3-A406-30641C625A49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{55283AFD-D72E-4F78-9FEB-222CAC31BFC9} = {7C370945-A0B8-46BB-B11A-C9132AF3AB54}
+		{B1B19DF3-20C3-45C3-A406-30641C625A49} = {7C370945-A0B8-46BB-B11A-C9132AF3AB54}
 	EndGlobalSection
 EndGlobal
