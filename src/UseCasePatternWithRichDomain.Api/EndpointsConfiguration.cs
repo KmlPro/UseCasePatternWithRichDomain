@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Builder;
+
 namespace UseCasePatternWithRichDomain.Api;
 
 public static class EndpointsConfiguration
