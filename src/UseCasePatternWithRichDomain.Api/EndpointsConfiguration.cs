@@ -1,5 +1,7 @@
+using UseCasePatternWithRichDomain.Api.UseCases.ChangeToDoTitle;
 using UseCasePatternWithRichDomain.Api.UseCases.CompleteToDo;
 using UseCasePatternWithRichDomain.Api.UseCases.CreateToDo;
+using UseCasePatternWithRichDomain.Api.UseCases.MarkToDoAsUncompleted;
 
 namespace UseCasePatternWithRichDomain.Api;
 
@@ -9,5 +11,7 @@ public static class EndpointsConfiguration
     {
         app.CreateToDoEndpoint();
         app.CompleteToDoEndpoint();
+        app.MarkToDoAsUncompletedEndpoint();
+        app.ChangeToDoTitleEndpoint();
     }
 }

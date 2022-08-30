@@ -1,4 +1,4 @@
-using UseCasePatternWithRichDomain.UseCases.Boundaries.CompleteToDo;
+using UseCasePatternWithRichDomain.UseCases.Boundaries.MarkToDoAsUncompleted;
 
 namespace UseCasePatternWithRichDomain.Api.UseCases.MarkToDoAsUncompleted;
 
@@ -11,7 +11,7 @@ public class MarkToDoAsUncompletedPresenter : IOutputPort
         ViewModel = Results.UnprocessableEntity(message);
     }
 
-    public void WriteStandard(CompleteToDoOutput output)
+    public void WriteStandard(MarkToDoAsUncompletedOutput output)
     {
         ViewModel = Results.Ok(output.Id);
     }

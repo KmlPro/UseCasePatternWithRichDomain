@@ -1,13 +1,11 @@
-using UseCasePatternWithRichDomain.Api.UseCases.CompleteToDo;
 using UseCasePatternWithRichDomain.Infrastructure.UseCaseProcessing.Executor;
-using UseCasePatternWithRichDomain.UseCases.Boundaries.CompleteToDo;
 using UseCasePatternWithRichDomain.UseCases.Boundaries.MarkToDoAsUncompleted;
 
 namespace UseCasePatternWithRichDomain.Api.UseCases.MarkToDoAsUncompleted;
 
 public static class Endpoint
 {
-    public static void CompleteToDoEndpoint(this WebApplication app)
+    public static void MarkToDoAsUncompletedEndpoint(this WebApplication app)
     {
         app.MapPost("/todo/markAsUncompleted",
             async (MarkToDoAsUncompletedRequest request, IUseCaseExecutor useCaseExecutor, CancellationToken token) =>
