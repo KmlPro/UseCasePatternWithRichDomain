@@ -1,0 +1,7 @@
+using UseCasePatternWithRichDomain.UseCases.BuildingBlocks.OutputPort;
+using UseCasePatternWithRichDomain.UseCases.BuildingBlocks.UseCases;
+
+namespace UseCasePatternWithRichDomain.UseCases.Boundaries.MarkToDoAsUncompleted;
+
+public interface IOutputPort : IUseCaseOutput, IOutputPortBusinessError, IOutputPortStandard<MarkToDoAsUncompletedOutput>
+{ }

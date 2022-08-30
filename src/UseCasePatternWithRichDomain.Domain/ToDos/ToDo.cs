@@ -38,7 +38,7 @@ public class ToDo : AggregateRoot
         AddDomainEvent(new ToDoMarkedAsCompletedDomainEvent(Id));
     }
 
-    public void MarkAsUnCompleted()
+    public void MarkAsUncompleted()
     {
         CheckRule(new CantMarkAsUncompletedAlreadyUncompletedRule(_isCompleted));
         _isCompleted = false;

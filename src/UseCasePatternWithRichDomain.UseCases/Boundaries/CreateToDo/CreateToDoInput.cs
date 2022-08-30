@@ -4,10 +4,10 @@ namespace UseCasePatternWithRichDomain.UseCases.Boundaries.CreateToDo;
 
 public class CreateToDoInput : IUseCaseInput<IOutputPort>
 {
-    public CreateToDoInput(string id)
+    public CreateToDoInput(string title)
     {
-        Id = id;
+        Title = title;
     }
 
-    public string Id { get; }
+    public string Title { get; }
 }

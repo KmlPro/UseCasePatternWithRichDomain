@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <Folder Include="BuildingBlocks" />
+      <Folder Include="UseCases\ChangeToDoTitle" />
     </ItemGroup>
 
     <ItemGroup>

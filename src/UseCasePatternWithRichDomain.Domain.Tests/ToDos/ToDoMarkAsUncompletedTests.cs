@@ -16,7 +16,7 @@ public class ToDoMarkAsUncompletedTests : TestBase
         toDo.Complete();
 
         //Act
-        toDo.MarkAsUnCompleted();
+        toDo.MarkAsUncompleted();
 
         //Assert
         var uncompletedDomainEvent = AssertPublishedDomainEvent<ToDoMarkedAsUncompletedDomainEvent>(toDo);
@@ -30,6 +30,6 @@ public class ToDoMarkAsUncompletedTests : TestBase
         var toDo = ToDo.Create("MyToDo");
 
         //Act & Asser
-        AssertBrokenRule<CantMarkAsUncompletedAlreadyUncompletedRule>(() => { toDo.MarkAsUnCompleted(); });
+        AssertBrokenRule<CantMarkAsUncompletedAlreadyUncompletedRule>(() => { toDo.MarkAsUncompleted(); });
     }
 }
