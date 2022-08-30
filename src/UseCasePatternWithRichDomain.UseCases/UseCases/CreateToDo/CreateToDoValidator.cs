@@ -7,6 +7,6 @@ public class CreateToDoValidator : AbstractValidator<CreateToDoInput>
 {
     public CreateToDoValidator()
     {
-        RuleFor(x => x.Title).NotNull().MinimumLength(5);
+        RuleFor(x => x.Id).NotNull().MinimumLength(5);
     }
 }

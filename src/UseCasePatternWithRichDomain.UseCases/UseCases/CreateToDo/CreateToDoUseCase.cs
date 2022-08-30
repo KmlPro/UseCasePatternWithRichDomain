@@ -25,7 +25,7 @@ public class CreateToDoUseCase : IUseCase
         try
         {
             await _validator.ValidateAndThrowAsync(input, cancellationToken);
-            var toDo = ToDo.Create(input.Title);
+            var toDo = ToDo.Create(input.Id);
             await _toDoWriteRepository.AddAsync(toDo, cancellationToken);
             _outputPort.WriteStandard(new CreateToDoOutput(toDo.Id.Value));
         }

@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="BuildingBlocks" />
-      <Folder Include="UseCases" />
     </ItemGroup>
 
     <ItemGroup>
